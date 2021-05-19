@@ -9,8 +9,8 @@ module.exports = {
       { text: 'Google', link: 'https://google.com' },
     ],
     sidebar: [
-      '/',
-      '/debug/'
+      '/debug/',
+      '/guide/js/',
     ]
   }
 }

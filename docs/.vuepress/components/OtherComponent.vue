@@ -44,6 +44,13 @@ export default {
 
 <style scoped>
 .other-component {
+  min-height: 72px;
+  margin: 1.6rem 0;
+  padding: 1.6rem;
   border: 1px solid black;
+  border-radius: 0.25rem;
+  border-color: rgb(209, 213, 219);
+  display: flex;
+  align-items: center;
 }
 </style>
