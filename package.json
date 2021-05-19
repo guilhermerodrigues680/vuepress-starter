@@ -4,8 +4,8 @@
   "description": "vuepress-starter",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs-md",
+    "docs:build": "vuepress build docs-md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "guilhermerodrigues680 <guilhermerodrigues680@gmail.com>",

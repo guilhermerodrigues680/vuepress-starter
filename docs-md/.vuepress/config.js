@@ -1,16 +1,28 @@
 module.exports = {
   title: 'VuePress Starter',
-  description: 'Just playing around',
-  base: '/',
+  description: 'Só brincando',
+  base: '/vuepress-starter/',
+
+  locales: {
+    '/': {
+      lang: 'pt-BR',
+    },
+  },
+
   themeConfig: {
     smoothScroll: true,
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Google', link: 'https://google.com' },
-    ],
-    sidebar: [
-      '/debug/',
-      '/guide/js/',
-    ]
+    locales: {
+      '/': {
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Google', link: 'https://google.com' },
+        ],
+
+        sidebar: [
+          '/debug/',
+          '/guide/js/',
+        ]
+      },
+    },
   }
 }
